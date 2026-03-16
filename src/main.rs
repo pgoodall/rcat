@@ -36,7 +36,4 @@ fn main() {
     let input_file = &args[1];
     let file_contents = read_file_contents(&input_file);
     print_file_contents(file_contents);
-//     for line in file_contents.lines() {
-//         println!("{}", line.expect("Could not read line"));
-//     }
 }
